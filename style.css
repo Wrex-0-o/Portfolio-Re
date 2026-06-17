@@ -140,6 +140,10 @@
     position: relative;
 }
 
+#projects{
+    position: relative;
+}
+
 .carousel-control-prev-icon, .carousel-control-next-icon{
     background-color: rgba(36, 36, 36, 0.5);
     border-radius: 50%;
@@ -169,4 +173,10 @@
 
 .text-body-secondary{
     color: azure !important;
+}
+
+@media (max-width: 1000px){
+    #resume{
+        height: 75rem;
+    }
 }
